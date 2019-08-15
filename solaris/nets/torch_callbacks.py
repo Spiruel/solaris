@@ -215,7 +215,7 @@ class TorchModelCheckpoint(object):
         else:
             return False
 
-    def save(self, model, weights_only):
+    def save(self, model, weights_only=False):
         """Save the model.
 
         Arguments
